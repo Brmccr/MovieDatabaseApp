@@ -1,0 +1,37 @@
+.movie-actor {
+  height: auto;
+  min-height: 30px;
+  background: #1c1c1c;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-actor img {
+  display: block;
+  width: 75%;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+
+.movie-actor-name {
+  display: relative;
+  font-family: 'Abel', sans-serif;
+  font-size: 22px;
+  color:#fff;
+  box-sizing: border-box;
+  margin: 20px 0 0 0;
+}
+
+.movie-actor-character {
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  color:#fff;
+ 
+ 
+  box-sizing: border-box;
+}

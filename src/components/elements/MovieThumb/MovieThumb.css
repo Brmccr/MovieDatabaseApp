@@ -1,0 +1,21 @@
+.movie-moviethumb img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+  object-fit: cover;
+  border-radius: 40px;
+  border: 3px solid black;
+}
+
+.movie-moviethumb:hover{
+  transform: scale(1.10);
+  transition-delay: 100ms;
+  transition-duration: 600ms;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  opacity: 0.8;
+}
